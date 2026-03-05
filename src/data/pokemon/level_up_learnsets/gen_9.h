@@ -3770,6 +3770,7 @@ static const struct LevelUpMove sMagbyLevelUpLearnset[] = {
     LEVEL_UP_MOVE(32, MOVE_LAVA_PLUME),
     LEVEL_UP_MOVE(36, MOVE_LOW_KICK),
     LEVEL_UP_MOVE(40, MOVE_FLAMETHROWER),
+    LEVEL_UP_MOVE(44, MOVE_SOLAR_BEAM),
     LEVEL_UP_MOVE(44, MOVE_SUNNY_DAY),
     LEVEL_UP_MOVE(48, MOVE_FIRE_BLAST),
     LEVEL_UP_END
@@ -3788,8 +3789,9 @@ static const struct LevelUpMove sMagmarLevelUpLearnset[] = {
     LEVEL_UP_MOVE(28, MOVE_FIRE_PUNCH),
     LEVEL_UP_MOVE(34, MOVE_LAVA_PLUME),
     LEVEL_UP_MOVE(40, MOVE_LOW_KICK),
+    LEVEL_UP_MOVE(44, MOVE_SOLAR_BEAM),
+    LEVEL_UP_MOVE(44, MOVE_SUNNY_DAY),
     LEVEL_UP_MOVE(46, MOVE_FLAMETHROWER),
-    LEVEL_UP_MOVE(52, MOVE_SUNNY_DAY),
     LEVEL_UP_MOVE(58, MOVE_FIRE_BLAST),
     LEVEL_UP_MOVE(64, MOVE_HYPER_BEAM),
     LEVEL_UP_END
@@ -3808,8 +3810,9 @@ static const struct LevelUpMove sMagmortarLevelUpLearnset[] = {
     LEVEL_UP_MOVE(28, MOVE_FIRE_PUNCH),
     LEVEL_UP_MOVE(34, MOVE_LAVA_PLUME),
     LEVEL_UP_MOVE(40, MOVE_LOW_KICK),
+    LEVEL_UP_MOVE(44, MOVE_SOLAR_BEAM),
+    LEVEL_UP_MOVE(44, MOVE_SUNNY_DAY),
     LEVEL_UP_MOVE(46, MOVE_FLAMETHROWER),
-    LEVEL_UP_MOVE(52, MOVE_SUNNY_DAY),
     LEVEL_UP_MOVE(58, MOVE_FIRE_BLAST),
     LEVEL_UP_MOVE(64, MOVE_HYPER_BEAM),
     LEVEL_UP_END
@@ -17279,7 +17282,7 @@ static const struct LevelUpMove sBewearLevelUpLearnset[] = {
 
 #if P_FAMILY_BOUNSWEET
 static const struct LevelUpMove sBounsweetLevelUpLearnset[] = {
-    LEVEL_UP_MOVE( 1, MOVE_SPLASH),
+    LEVEL_UP_MOVE( 1, MOVE_LEAFAGE),
     LEVEL_UP_MOVE( 4, MOVE_PLAY_NICE),
     LEVEL_UP_MOVE( 8, MOVE_RAPID_SPIN),
     LEVEL_UP_MOVE(12, MOVE_RAZOR_LEAF),
@@ -17293,7 +17296,7 @@ static const struct LevelUpMove sBounsweetLevelUpLearnset[] = {
 
 static const struct LevelUpMove sSteeneeLevelUpLearnset[] = {
     LEVEL_UP_MOVE( 1, MOVE_RAZOR_LEAF),
-    LEVEL_UP_MOVE( 1, MOVE_SPLASH),
+    LEVEL_UP_MOVE( 1, MOVE_LEAFAGE),
     LEVEL_UP_MOVE( 1, MOVE_FLAIL),
     LEVEL_UP_MOVE( 1, MOVE_RAPID_SPIN),
     LEVEL_UP_MOVE( 1, MOVE_PLAY_NICE),
@@ -17309,7 +17312,7 @@ static const struct LevelUpMove sSteeneeLevelUpLearnset[] = {
 static const struct LevelUpMove sTsareenaLevelUpLearnset[] = {
     LEVEL_UP_MOVE( 0, MOVE_TROP_KICK),
     LEVEL_UP_MOVE( 1, MOVE_RAZOR_LEAF),
-    LEVEL_UP_MOVE( 1, MOVE_SPLASH),
+    LEVEL_UP_MOVE( 1, MOVE_LEAFAGE),
     LEVEL_UP_MOVE( 1, MOVE_FLAIL),
     LEVEL_UP_MOVE( 1, MOVE_SWAGGER),
     LEVEL_UP_MOVE( 1, MOVE_RAPID_SPIN),
