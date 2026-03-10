@@ -16,3 +16,20 @@ LittlerootWoods_Text_WelcomeMessage:
 	.string "may await you.\p"
 	.string "As a reward for winning, you will be\n"
 	.string "able to find a special Pokémon.$"
+
+EventScript_EncontroHisuianVoltorb::
+	lock
+	faceplayer
+	waitse
+	playmoncry SPECIES_VOLTORB_HISUI, CRY_MODE_ENCOUNTER
+	msgbox Texto_VoltorbAtaca, MSGBOX_DEFAULT
+	waitmoncry
+	setflag FLAG_LITTLEROOT_WOODS_HISUIAN_VOLTORB
+	removeobject 2
+	createmon 1, 0, SPECIES_VOLTORB_HISUI, 5, nature=NATURE_TIMID, hpIv=31, atkIv=31, defIv=31, speedIv=31, spAtkIv=31, spDefIv=31, shinyMode=SHINY_MODE_ALWAYS
+	dowildbattle
+	release
+	end
+
+Texto_VoltorbAtaca:
+	.string "Bzzzt!\n$"
