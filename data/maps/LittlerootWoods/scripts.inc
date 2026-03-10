@@ -17,6 +17,22 @@ LittlerootWoods_Text_WelcomeMessage:
 	.string "As a reward for winning, you will be\n"
 	.string "able to find a special Pokémon.$"
 
+LittlerootWoods_EventScript_GauntletIntro::
+	lock
+	faceplayer
+	msgbox LittlerootWoods_Text_GauntletIntro, MSGBOX_DEFAULT
+	release
+	end
+
+LittlerootWoods_Text_GauntletIntro:
+	.string "Be careful! There is a gauntlet\n"
+	.string "ahead. You may find some strong\p"
+	.string "trainers. If you enter this challenge,\n"
+	.string "you won't be able to leave until you\l"
+	.string "either triumph or white out!\p"
+	.string "But remember, there is a great reward\n"
+	.string "awaiting at the end.$"
+
 EventScript_EncontroHisuianVoltorb::
 	lock
 	faceplayer
