@@ -9327,8 +9327,8 @@
     {
       "id": "LAYOUT_LITTLEROOT_WOODS",
       "name": "LittlerootWoods_Layout",
-      "width": 16,
-      "height": 20,
+      "width": 32,
+      "height": 22,
       "primary_tileset": "gTileset_General",
       "secondary_tileset": "gTileset_Petalburg",
       "border_filepath": "data/layouts/LittlerootWoods/border.bin",
