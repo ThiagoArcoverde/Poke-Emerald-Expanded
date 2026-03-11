@@ -49,3 +49,36 @@ EventScript_EncontroHisuianVoltorb::
 
 Texto_VoltorbAtaca:
 	.string "Bzzzt!\n$"
+
+Gauntlet_Bart_Battle::
+	trainerbattle_single TRAINER_BART_1, Bart_Intro, Bart_Outro
+	msgbox Bart_PostBattle, MSGBOX_AUTOCLOSE
+	end
+
+Bart_Intro:
+	.string "I'm Bart and my bugs will\n"
+	.string "give you some trouble!$"
+
+Bart_Outro:
+	.string "My Caterpie was no match...$"
+
+Bart_PostBattle:
+	.string "I need stronger bugs for\n"
+	.string "this Gauntlet.$"
+
+Gauntlet_Monika_Battle::
+	trainerbattle_single TRAINER_MONIKA_1, Monika_Intro, Monika_Outro
+	msgbox Monika_PostBattle, MSGBOX_AUTOCLOSE
+	end
+
+Monika_Intro:
+	.string "I am the strongest girl on\n"
+	.string "this block! Nobody beats me!$"
+
+Monika_Outro:
+	.string "It seems I am not as strong\n"
+	.string "as I thought...$"
+
+Monika_PostBattle:
+	.string "Fine, you won this time.\n"
+	.string "But don't you dare touch my bunny!$"

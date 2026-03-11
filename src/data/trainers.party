@@ -16873,3 +16873,81 @@ Double Battle: No
 Kyogre
 Level: 5
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+=== TRAINER_BART_1 ===
+Name: BART
+Class: Bug Catcher
+Pic: Bug Catcher
+Gender: Male
+Music: Male
+Double Battle: No
+AI: Check Bad Move / Check Viability / Try To Faint
+
+Nincada
+Level: 11
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+Ability: Compound Eyes
+Nature: Jolly
+- Harden
+- Leech Life
+- Sand Attack
+- Fury Swipes
+
+Surskit
+Level: 12
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+Ability: Swift Swim
+Nature: Timid
+- Bubble
+- Quick Attack
+- Sweet Scent
+- Water Sport
+
+Heracross
+Level: 14
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 0 Spe
+Ability: Guts
+Nature: Modest
+- Arm Thrust
+- Bullet Seed
+- Leer
+- Horn Attack
+
+=== TRAINER_MONIKA_1 ===
+Name: Monika
+Class: Parasol Lady
+Pic: Parasol Lady
+Gender: Female
+Music: Female
+Double Battle: No
+AI: Check Bad Move / Check Viability / Try To Faint
+
+Bunnelby
+Level: 11
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+Ability: Huge Power
+Nature: Jolly
+-Quick Attack
+-Mud-Slap
+-Leer
+-Double Kick
+
+Buneary
+Level: 12
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+Ability: Run Away
+Nature: Jolly
+-Baby-Doll Eyes
+-Pound
+-Quick Attack
+-Jump Kick
+
+Azumarill
+Level: 14
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+Ability: Huge Power
+Nature: Adamant
+-Aqua Jet
+-Water Gun
+-Rollout
+-Defense Curl
