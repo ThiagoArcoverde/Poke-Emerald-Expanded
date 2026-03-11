@@ -20,19 +20,24 @@
     },
     {
       "map": "MAP_ROUTE105",
-      "offset": 0,
+      "offset": 12,
       "direction": "down"
     },
     {
       "map": "MAP_PETALBURG_CITY",
       "offset": 50,
       "direction": "right"
+    },
+    {
+      "map": "MAP_DRIZZLE_ISLAND",
+      "offset": 34,
+      "direction": "left"
     }
   ],
   "object_events": [
     {
       "graphics_id": "OBJ_EVENT_GFX_BUG_CATCHER",
-      "x": 15,
+      "x": 27,
       "y": 60,
       "elevation": 3,
       "movement_type": "MOVEMENT_TYPE_FACE_LEFT",
@@ -45,7 +50,7 @@
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_GIRL_2",
-      "x": 25,
+      "x": 37,
       "y": 49,
       "elevation": 3,
       "movement_type": "MOVEMENT_TYPE_WANDER_AROUND",
@@ -58,7 +63,7 @@
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_LASS",
-      "x": 31,
+      "x": 43,
       "y": 24,
       "elevation": 3,
       "movement_type": "MOVEMENT_TYPE_FACE_LEFT",
@@ -71,7 +76,7 @@
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_BOY_1",
-      "x": 27,
+      "x": 39,
       "y": 63,
       "elevation": 3,
       "movement_type": "MOVEMENT_TYPE_WANDER_UP_AND_DOWN",
@@ -84,7 +89,7 @@
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_WOMAN_2",
-      "x": 30,
+      "x": 42,
       "y": 50,
       "elevation": 3,
       "movement_type": "MOVEMENT_TYPE_WANDER_AROUND",
@@ -97,7 +102,7 @@
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_GIRL_3",
-      "x": 28,
+      "x": 40,
       "y": 74,
       "elevation": 3,
       "movement_type": "MOVEMENT_TYPE_FACE_UP",
@@ -111,7 +116,7 @@
     {
       "local_id": "LOCALID_ROUTE104_BOAT",
       "graphics_id": "OBJ_EVENT_GFX_MR_BRINEYS_BOAT",
-      "x": 12,
+      "x": 24,
       "y": 54,
       "elevation": 1,
       "movement_type": "MOVEMENT_TYPE_FACE_UP",
@@ -125,7 +130,7 @@
     {
       "local_id": "LOCALID_ROUTE104_BRINEY",
       "graphics_id": "OBJ_EVENT_GFX_EXPERT_M",
-      "x": 12,
+      "x": 24,
       "y": 51,
       "elevation": 4,
       "movement_type": "MOVEMENT_TYPE_FACE_RIGHT",
@@ -138,7 +143,7 @@
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_FISHERMAN",
-      "x": 29,
+      "x": 41,
       "y": 8,
       "elevation": 3,
       "movement_type": "MOVEMENT_TYPE_FACE_DOWN",
@@ -151,7 +156,7 @@
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_BERRY_TREE",
-      "x": 34,
+      "x": 46,
       "y": 6,
       "elevation": 3,
       "movement_type": "MOVEMENT_TYPE_BERRY_TREE_GROWTH",
@@ -164,7 +169,7 @@
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_BERRY_TREE",
-      "x": 35,
+      "x": 47,
       "y": 6,
       "elevation": 3,
       "movement_type": "MOVEMENT_TYPE_BERRY_TREE_GROWTH",
@@ -177,7 +182,7 @@
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_BERRY_TREE",
-      "x": 36,
+      "x": 48,
       "y": 6,
       "elevation": 3,
       "movement_type": "MOVEMENT_TYPE_BERRY_TREE_GROWTH",
@@ -190,7 +195,7 @@
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_BERRY_TREE",
-      "x": 22,
+      "x": 34,
       "y": 41,
       "elevation": 3,
       "movement_type": "MOVEMENT_TYPE_BERRY_TREE_GROWTH",
@@ -203,7 +208,7 @@
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_BERRY_TREE",
-      "x": 23,
+      "x": 35,
       "y": 41,
       "elevation": 3,
       "movement_type": "MOVEMENT_TYPE_BERRY_TREE_GROWTH",
@@ -216,7 +221,7 @@
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_BERRY_TREE",
-      "x": 24,
+      "x": 36,
       "y": 41,
       "elevation": 3,
       "movement_type": "MOVEMENT_TYPE_BERRY_TREE_GROWTH",
@@ -229,7 +234,7 @@
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_EXPERT_F",
-      "x": 37,
+      "x": 49,
       "y": 8,
       "elevation": 3,
       "movement_type": "MOVEMENT_TYPE_FACE_LEFT",
@@ -242,7 +247,7 @@
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_BERRY_TREE",
-      "x": 3,
+      "x": 15,
       "y": 22,
       "elevation": 3,
       "movement_type": "MOVEMENT_TYPE_BERRY_TREE_GROWTH",
@@ -255,7 +260,7 @@
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_BERRY_TREE",
-      "x": 3,
+      "x": 15,
       "y": 23,
       "elevation": 3,
       "movement_type": "MOVEMENT_TYPE_BERRY_TREE_GROWTH",
@@ -268,7 +273,7 @@
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_BERRY_TREE",
-      "x": 3,
+      "x": 15,
       "y": 24,
       "elevation": 3,
       "movement_type": "MOVEMENT_TYPE_BERRY_TREE_GROWTH",
@@ -281,7 +286,7 @@
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_BERRY_TREE",
-      "x": 3,
+      "x": 15,
       "y": 25,
       "elevation": 3,
       "movement_type": "MOVEMENT_TYPE_BERRY_TREE_GROWTH",
@@ -294,7 +299,7 @@
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_ITEM_BALL",
-      "x": 39,
+      "x": 51,
       "y": 15,
       "elevation": 3,
       "movement_type": "MOVEMENT_TYPE_LOOK_AROUND",
@@ -307,7 +312,7 @@
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_WOMAN_5",
-      "x": 8,
+      "x": 20,
       "y": 19,
       "elevation": 3,
       "movement_type": "MOVEMENT_TYPE_WANDER_LEFT_AND_RIGHT",
@@ -320,7 +325,7 @@
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_TWIN",
-      "x": 27,
+      "x": 39,
       "y": 15,
       "elevation": 3,
       "movement_type": "MOVEMENT_TYPE_FACE_DOWN",
@@ -333,7 +338,7 @@
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_TWIN",
-      "x": 28,
+      "x": 40,
       "y": 15,
       "elevation": 3,
       "movement_type": "MOVEMENT_TYPE_FACE_DOWN",
@@ -346,7 +351,7 @@
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_RICH_BOY",
-      "x": 21,
+      "x": 33,
       "y": 25,
       "elevation": 3,
       "movement_type": "MOVEMENT_TYPE_ROTATE_COUNTERCLOCKWISE",
@@ -359,7 +364,7 @@
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_WOMAN_2",
-      "x": 11,
+      "x": 23,
       "y": 44,
       "elevation": 3,
       "movement_type": "MOVEMENT_TYPE_FACE_UP_AND_RIGHT",
@@ -372,7 +377,7 @@
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_ITEM_BALL",
-      "x": 29,
+      "x": 41,
       "y": 53,
       "elevation": 3,
       "movement_type": "MOVEMENT_TYPE_LOOK_AROUND",
@@ -385,7 +390,7 @@
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_YOUNGSTER",
-      "x": 18,
+      "x": 30,
       "y": 67,
       "elevation": 3,
       "movement_type": "MOVEMENT_TYPE_WALK_SEQUENCE_DOWN_RIGHT_UP_LEFT",
@@ -398,7 +403,7 @@
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_ITEM_BALL",
-      "x": 37,
+      "x": 49,
       "y": 22,
       "elevation": 3,
       "movement_type": "MOVEMENT_TYPE_LOOK_AROUND",
@@ -411,7 +416,7 @@
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_CUTTABLE_TREE",
-      "x": 35,
+      "x": 47,
       "y": 22,
       "elevation": 3,
       "movement_type": "MOVEMENT_TYPE_LOOK_AROUND",
@@ -424,7 +429,7 @@
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_ITEM_BALL",
-      "x": 5,
+      "x": 17,
       "y": 8,
       "elevation": 3,
       "movement_type": "MOVEMENT_TYPE_LOOK_AROUND",
@@ -437,7 +442,7 @@
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_BOY_2",
-      "x": 5,
+      "x": 17,
       "y": 26,
       "elevation": 3,
       "movement_type": "MOVEMENT_TYPE_LOOK_AROUND",
@@ -450,7 +455,7 @@
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_FISHERMAN",
-      "x": 15,
+      "x": 27,
       "y": 59,
       "elevation": 3,
       "movement_type": "MOVEMENT_TYPE_FACE_LEFT",
@@ -464,7 +469,7 @@
     {
       "local_id": "LOCALID_ROUTE104_RIVAL",
       "graphics_id": "OBJ_EVENT_GFX_VAR_0",
-      "x": 17,
+      "x": 29,
       "y": 50,
       "elevation": 0,
       "movement_type": "MOVEMENT_TYPE_LOOK_AROUND",
@@ -478,56 +483,56 @@
   ],
   "warp_events": [
     {
-      "x": 17,
+      "x": 29,
       "y": 50,
       "elevation": 0,
       "dest_map": "MAP_ROUTE104_MR_BRINEYS_HOUSE",
       "dest_warp_id": "0"
     },
     {
-      "x": 5,
+      "x": 17,
       "y": 18,
       "elevation": 0,
       "dest_map": "MAP_ROUTE104_PRETTY_PETAL_FLOWER_SHOP",
       "dest_warp_id": "0"
     },
     {
-      "x": 10,
+      "x": 22,
       "y": 30,
       "elevation": 3,
       "dest_map": "MAP_PETALBURG_WOODS",
       "dest_warp_id": "0"
     },
     {
-      "x": 11,
+      "x": 23,
       "y": 30,
       "elevation": 3,
       "dest_map": "MAP_PETALBURG_WOODS",
       "dest_warp_id": "1"
     },
     {
-      "x": 10,
+      "x": 22,
       "y": 38,
       "elevation": 3,
       "dest_map": "MAP_PETALBURG_WOODS",
       "dest_warp_id": "2"
     },
     {
-      "x": 11,
+      "x": 23,
       "y": 38,
       "elevation": 3,
       "dest_map": "MAP_PETALBURG_WOODS",
       "dest_warp_id": "3"
     },
     {
-      "x": 32,
+      "x": 44,
       "y": 42,
       "elevation": 3,
       "dest_map": "MAP_PETALBURG_WOODS",
       "dest_warp_id": "4"
     },
     {
-      "x": 33,
+      "x": 45,
       "y": 42,
       "elevation": 3,
       "dest_map": "MAP_PETALBURG_WOODS",
@@ -537,7 +542,7 @@
   "coord_events": [
     {
       "type": "trigger",
-      "x": 17,
+      "x": 29,
       "y": 51,
       "elevation": 3,
       "var": "VAR_ROUTE104_STATE",
@@ -548,7 +553,7 @@
   "bg_events": [
     {
       "type": "sign",
-      "x": 20,
+      "x": 32,
       "y": 50,
       "elevation": 0,
       "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
@@ -556,7 +561,7 @@
     },
     {
       "type": "sign",
-      "x": 27,
+      "x": 39,
       "y": 66,
       "elevation": 0,
       "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
@@ -564,7 +569,7 @@
     },
     {
       "type": "sign",
-      "x": 23,
+      "x": 35,
       "y": 5,
       "elevation": 0,
       "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
@@ -572,7 +577,7 @@
     },
     {
       "type": "sign",
-      "x": 7,
+      "x": 19,
       "y": 20,
       "elevation": 0,
       "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
@@ -580,7 +585,7 @@
     },
     {
       "type": "sign",
-      "x": 17,
+      "x": 29,
       "y": 23,
       "elevation": 3,
       "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
@@ -588,7 +593,7 @@
     },
     {
       "type": "hidden_item",
-      "x": 7,
+      "x": 19,
       "y": 6,
       "elevation": 3,
       "item": "ITEM_SUPER_POTION",
@@ -596,7 +601,7 @@
     },
     {
       "type": "hidden_item",
-      "x": 3,
+      "x": 15,
       "y": 9,
       "elevation": 3,
       "item": "ITEM_POKE_BALL",
@@ -604,7 +609,7 @@
     },
     {
       "type": "hidden_item",
-      "x": 14,
+      "x": 26,
       "y": 55,
       "elevation": 3,
       "item": "ITEM_POTION",
@@ -612,7 +617,7 @@
     },
     {
       "type": "hidden_item",
-      "x": 16,
+      "x": 28,
       "y": 72,
       "elevation": 3,
       "item": "ITEM_ANTIDOTE",
@@ -620,7 +625,7 @@
     },
     {
       "type": "hidden_item",
-      "x": 16,
+      "x": 28,
       "y": 64,
       "elevation": 3,
       "item": "ITEM_HEART_SCALE",

@@ -1630,6 +1630,10 @@
     {
       "id": "MAPSEC_LITTLEROOT_WOODS",
       "name": "LITTLEROOT WOODS"
+    },
+    {
+      "id": "MAPSEC_DRIZZLE_ISLAND",
+      "name": "DRIZZLE ISLAND"
     }
   ]
 }

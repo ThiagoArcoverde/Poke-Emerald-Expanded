@@ -1738,3 +1738,5 @@ EventScript_PalletTown_PlayersHouse_2F_TurnOnPC::
 	.include "data/scripts/apricorn_tree.inc"
 
 	.include "data/maps/LittlerootWoods/scripts.inc"
+
+	.include "data/maps/DrizzleIsland/scripts.inc"
