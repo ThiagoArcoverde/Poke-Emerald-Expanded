@@ -51,7 +51,7 @@
 
 #else
 
-#define FLAG_LITTLEROOT_WOODS_HISUIAN_VOLTORB    0x20
+#define FLAG_LITTLEROOT_WOODS_HISUIAN_GROWLITHE    0x20
 #define FLAG_UNUSED_0x021    0x21 // Unused Flag
 #define FLAG_UNUSED_0x022    0x22 // Unused Flag
 #define FLAG_UNUSED_0x023    0x23 // Unused Flag

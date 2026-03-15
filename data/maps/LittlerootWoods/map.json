@@ -39,7 +39,7 @@
       "flag": "0"
     },
     {
-      "graphics_id": "OBJ_EVENT_GFX_SPECIES(VOLTORB_HISUI)",
+      "graphics_id": "OBJ_EVENT_GFX_SPECIES(GROWLITHE_HISUI)",
       "x": 17,
       "y": 3,
       "elevation": 1,
@@ -48,8 +48,8 @@
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
-      "script": "EventScript_EncontroHisuianVoltorb",
-      "flag": "FLAG_LITTLEROOT_WOODS_HISUIAN_VOLTORB"
+      "script": "EventScript_EncontroHisuianGrowlithe",
+      "flag": "FLAG_LITTLEROOT_WOODS_HISUIAN_GROWLITHE"
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_BEAUTY",
@@ -100,11 +100,11 @@
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NORMAL",
       "trainer_sight_or_berry_tree_id": "4",
-      "script": "NULL",
+      "script": "Gauntlet_Oswald_Battle",
       "flag": "0"
     },
     {
-      "graphics_id": "OBJ_EVENT_GFX_BUG_CATCHER",
+      "graphics_id": "OBJ_EVENT_GFX_GENTLEMAN",
       "x": 29,
       "y": 6,
       "elevation": 0,
@@ -113,7 +113,7 @@
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NORMAL",
       "trainer_sight_or_berry_tree_id": "4",
-      "script": "NULL",
+      "script": "Gauntlet_Barto_Battle",
       "flag": "0"
     }
   ],

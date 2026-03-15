@@ -33,22 +33,22 @@ LittlerootWoods_Text_GauntletIntro:
 	.string "But remember, there is a great reward\n"
 	.string "awaiting at the end.$"
 
-EventScript_EncontroHisuianVoltorb::
+EventScript_EncontroHisuianGrowlithe::
 	lock
 	faceplayer
 	waitse
-	playmoncry SPECIES_VOLTORB_HISUI, CRY_MODE_ENCOUNTER
-	msgbox Texto_VoltorbAtaca, MSGBOX_DEFAULT
+	playmoncry SPECIES_GROWLITHE_HISUI, CRY_MODE_ENCOUNTER
+	msgbox Texto_GrowlitheAtaca, MSGBOX_DEFAULT
 	waitmoncry
-	setflag FLAG_LITTLEROOT_WOODS_HISUIAN_VOLTORB
+	setflag FLAG_LITTLEROOT_WOODS_HISUIAN_GROWLITHE
 	removeobject 2
-	createmon 1, 0, SPECIES_VOLTORB_HISUI, 5, nature=NATURE_TIMID, hpIv=31, atkIv=31, defIv=31, speedIv=31, spAtkIv=31, spDefIv=31, shinyMode=SHINY_MODE_ALWAYS
+	createmon 1, 0, SPECIES_GROWLITHE_HISUI, 12, nature=NATURE_ADAMANT, hpIv=31, atkIv=31, defIv=31, speedIv=31, spAtkIv=31, spDefIv=31, shinyMode=SHINY_MODE_ALWAYS
 	dowildbattle
 	release
 	end
 
-Texto_VoltorbAtaca:
-	.string "Bzzzt!\n$"
+Texto_GrowlitheAtaca:
+	.string "GRRR!\n$"
 
 Gauntlet_Bart_Battle::
 	trainerbattle_single TRAINER_BART_1, Bart_Intro, Bart_Outro
@@ -60,7 +60,7 @@ Bart_Intro:
 	.string "give you some trouble!$"
 
 Bart_Outro:
-	.string "My Caterpie was no match...$"
+	.string "I was no match...$"
 
 Bart_PostBattle:
 	.string "I need stronger bugs for\n"
@@ -82,3 +82,40 @@ Monika_Outro:
 Monika_PostBattle:
 	.string "Fine, you won this time.\n"
 	.string "But don't you dare touch my bunny!$"
+
+Gauntlet_Oswald_Battle::
+	trainerbattle_single TRAINER_OSWALD_1, Oswald_Intro,  Oswald_Outro
+	msgbox Oswald_PostBattle, MSGBOX_AUTOCLOSE
+	end
+
+Oswald_Intro:
+	.string "The small critters of this forest\n"
+	.string "are faster than your eyes can see!$"
+
+Oswald_Outro:
+	.string "Outmaneuvered...\n"
+	.string "You have quite the reflex!$"
+
+Oswald_PostBattle:
+	.string "My team uses quick strikes to numb\n"
+	.string "their foes. It's how they survive\l"
+	.string "against much larger threats.$"
+
+Gauntlet_Barto_Battle::
+	trainerbattle_single TRAINER_BARTO_1, Barto_Intro, Barto_Outro
+	msgbox Barto_PostBattle, MSGBOX_AUTOCLOSE
+	end
+
+Barto_Intro:
+	.string "A pleasant afternoon for a duel,\n"
+	.string "don't you agree? I trust you have\l"
+	.string "prepared for a refined struggle.$"
+
+Barto_Outro:
+	.string "Splendid execution!\n"
+	.string "Your tactics are quite exquisite.$"
+
+Barto_PostBattle:
+	.string "A true gentleman knows when he is\n"
+	.string "bested. May your journey through\l"
+	.string "the woods be as sharp as your wit.$"

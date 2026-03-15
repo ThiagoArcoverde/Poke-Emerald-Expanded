@@ -16951,3 +16951,68 @@ Nature: Adamant
 -Water Gun
 -Rollout
 -Defense Curl
+
+=== TRAINER_OSWALD_1 ===
+Name: Oswald
+Class: Camper
+Pic: Camper
+Gender: Male
+Music: Male
+Double Battle: No
+AI: Check Bad Move / Check Viability / Try To Faint
+
+Pawmi
+Level: 12
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+Ability: Static
+Nature: Jolly
+-Nuzzle
+-Quick Attack
+-Fake Out
+-Mach Punch
+
+Rattata-Alola
+Level: 11
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+Ability: Thick Fat
+Nature: Jolly
+-Bite
+-Quick Attack
+-Super Fang
+-Substitute
+
+Dedenne @ Oran Berry
+Level: 14
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+Ability: Cheek Pouch
+-Nuzzle
+-Parabolic Charge
+-Play Rough
+-Fake Out
+
+=== TRAINER_BARTO_1 ===
+Name: Barto
+Class: Gentleman
+Pic: Gentleman
+Gender: Male
+Music: Rich
+Double Battle: No
+AI: Check Bad Move / Check Viability / Try To Faint
+
+Eevee
+Level: 13
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+Ability: Adaptability
+-Quick Attack
+-Protect
+-Wish
+-Substitute
+
+Furret @ Sitrus Berry
+Level: 16
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+Ability: Keen Eye
+-Sucker Punch
+-Fire Punch
+-Thunder Punch
+-Ice Punch
